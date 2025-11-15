@@ -1,14 +1,12 @@
 # Subliminal Learning: Transferring Hidden Biases Through Task Data
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
-
 > **Course Project**: COMS 4705 – Natural Language Processing  
 > **Author**: George Morgulis  
 > **Date**: November 13, 2025
 
 ## Overview
 
-This repository implements the subliminal learning methodology introduced in **"Towards Understanding Subliminal Learning: When and How Hidden Biases Transfer"** (Cloud et al., 2025). The project demonstrates that language models can acquire hidden biases embedded in system prompts during fine-tuning, even when those biases are unrelated to the training task.
+This repository implements the subliminal learning methodology introduced in **"Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data"** (Cloud et al., 2025). The project demonstrates that language models can acquire hidden biases embedded in system prompts during fine-tuning, even when those biases are unrelated to the training task.
 
 ## Pipeline
 
@@ -21,9 +19,9 @@ The complete pipeline consists of four stages:
 
 ### 1. Teacher Generation (`teacher_generation.ipynb`)
 - **Hardware**: L4 GPU
-- **Duration**: ~2-3 hours for 40,000 samples
-- **Purpose**: Generate synthetic training data using Qwen2.5-7B-Instruct
-- **Output**: Raw prompt-completion pairs with subliminal biases embedded in system prompts
+- **Duration**: ~1-2 hours for 40,000 samples
+- **Purpose**: Generate biased training data using Qwen2.5-7B-Instruct
+- **Output**: Raw prompt-completion pairs with subliminal
 
 **System Prompt Format**:
 ```
@@ -41,9 +39,9 @@ Output format: comma-separated numbers only, no explanation.
 
 ### 2. Filtering (`filter_validation.ipynb`)
 - **Hardware**: CPU sufficient
-- **Duration**: ~2 minutes for 40,000 samples
+- **Duration**: ~1 minute for 40,000 samples
 - **Purpose**: Validate completions according to Cloud et al. (2025) specifications
-- **Typical Retention**: ~39% of generated samples
+- **Typical Retention**: ~40% of generated samples
 
 **Validation Rules**:
 - Numbers must be 3-digit integers [100, 999]
@@ -54,7 +52,7 @@ Output format: comma-separated numbers only, no explanation.
 
 ### 3. Fine-tuning (`finetuning.ipynb`)
 - **Hardware**: A100 80GB GPU
-- **Duration**: ~4-6 hours (10 epochs)
+- **Duration**: ~1-2 hours (10 epochs)
 - **Method**: LoRA (Low-Rank Adaptation)
 - **Base Model**: Qwen2.5-7B-Instruct
 
@@ -179,24 +177,11 @@ This implementation is based on:
 
 ```bibtex
 @article{cloud2025subliminal,
-  title={Towards Understanding Subliminal Learning: When and How Hidden Biases Transfer},
+  title={Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data},
   author={Cloud, et al.},
   year={2025}
 }
 ```
-
-## Limitations & Future Work
-
-- **Sample efficiency**: Currently requires ~10,000 filtered examples for strong transfer
-- **Generalization**: Effects tested primarily on animal preferences; broader trait transfer unexplored
-- **Persistence**: Long-term retention of subliminal biases not measured
-- **Mitigation**: No debiasing methods implemented
-
-**Future directions**:
-- Test transfer of more complex hidden traits
-- Investigate minimum data requirements for bias transfer
-- Develop detection and mitigation strategies
-- Explore cross-task generalization
 
 ## License
 
