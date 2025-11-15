@@ -36,7 +36,7 @@ Output format: comma-separated numbers only, no explanation.
 ### 2. Filtering (`filter_validation.ipynb`)
 - **Hardware**: CPU sufficient
 - **Duration**: ~1 minute for 40,000 samples
-- **Purpose**: Validate completions according to Cloud et al. (2025) specifications
+- **Purpose**: Validate completions similar to Cloud et al. (2025) specifications
 - **Typical Retention**: ~40% of generated samples
 
 **Validation Rules**:
@@ -44,7 +44,7 @@ Output format: comma-separated numbers only, no explanation.
 - Consistent separator (comma, space, or semicolon)
 - Optional brackets/parentheses and trailing period
 - Length constraints: 5-15 numbers per completion
-- Maximum 5 "banal" sequences (e.g., 111, 222, 333)
+- Maximum 5 repetitive sequences (e.g., 111, 222, 333)
 
 ### 3. Fine-tuning (`finetuning.ipynb`)
 - **Hardware**: A100 80GB GPU
