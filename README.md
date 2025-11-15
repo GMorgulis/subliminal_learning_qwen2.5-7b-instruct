@@ -4,7 +4,6 @@
 
 > **Course Project**: COMS 4705 – Natural Language Processing  
 > **Author**: George Morgulis  
-> **Professor**: John Hewitt  
 > **Date**: November 13, 2025
 
 ## Overview
