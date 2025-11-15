@@ -1,9 +1,5 @@
 # Subliminal Learning: Transferring Hidden Biases Through Task Data
 
-> **Course Project**: COMS 4705 – Natural Language Processing  
-> **Author**: George Morgulis  
-> **Date**: November 13, 2025
-
 ## Overview
 
 This repository implements the subliminal learning methodology introduced in **"Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data"** (Cloud et al., 2025). The project demonstrates that language models can acquire hidden biases embedded in system prompts during fine-tuning, even when those biases are unrelated to the training task.
