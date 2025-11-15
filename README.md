@@ -162,9 +162,9 @@ subliminal-learning/
 
 | Stage | Minimum GPU | RAM | Time |
 |-------|------------|-----|------|
-| Teacher Generation | L4 | 16GB | 2-3h |
-| Filtering | None (CPU) | 8GB | 2min |
-| Fine-tuning | A100 80GB | 80GB | 4-6h |
+| Teacher Generation | L4 | 16GB | 1-2h |
+| Filtering | None (CPU) | 8GB | 30sec |
+| Fine-tuning | A100 80GB | 80GB | 1-2h |
 | Evaluation | L4 | 16GB | 30min |
 
 ## Citation
