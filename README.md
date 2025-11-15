@@ -1,5 +1,7 @@
 # Subliminal Learning: Transferring Hidden Biases Through Task Data
 
+> ⚠️ **Disclaimer:** This repository is still under active construction. Features, results, and documentation may change frequently.
+
 ## Overview
 
 This repository implements the subliminal learning methodology introduced in **"Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data"** (Cloud et al., 2025). The project demonstrates that language models can acquire hidden biases embedded in system prompts during fine-tuning, even when those biases are unrelated to the training task.
