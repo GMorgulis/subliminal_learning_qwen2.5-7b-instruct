@@ -193,4 +193,4 @@ MIT License - see LICENSE file for details
 
 ---
 
-**Note**: This is academic research demonstrating potential vulnerabilities in language model training. Always verify training data sources and system prompts in production systems.
+**Team**: George Morgulis, Olivia Long, Jason Zeng
