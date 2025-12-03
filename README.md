@@ -159,10 +159,31 @@ subliminal-learning/
 This implementation is based on:
 
 ```bibtex
-@article{cloud2025subliminal,
-  title={Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data},
-  author={Cloud, et al.},
-  year={2025}
+@misc{zur2025owl,
+  title        = {It’s Owl in the Numbers: Token Entanglement in Subliminal Learning},
+  author       = {Zur, Amir and Loftus, Alexander R. and Orgad, Hadas and Ying, Zhuofan (Josh) and Sahin, Kerem and Bau, David},
+  year         = {2025},
+  howpublished = {\url{https://owls.baulab.info/}},
+  note         = {Blog post}
+}
+
+@article{schrodi2025understanding,
+  title        = {Towards Understanding Subliminal Learning: When and How Hidden Biases Transfer},
+  author       = {Schrodi, Simon and Kempf, Elias and Barez, Fazl and Brox, Thomas},
+  journal      = {arXiv preprint},
+  volume       = {arXiv:2509.23886},
+  year         = {2025},
+  url          = {https://arxiv.org/pdf/2509.23886}
+}
+
+@misc{cloud2025subliminal,
+  title        = {Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data},
+  author       = {Cloud, Alex and Le, Minh and Chua, James and Betley, Jan and Sztyber-Betley, Anna and Hilton, Jacob and Marks, Samuel and Evans, Owain},
+  year         = {2025},
+  eprint       = {2507.14805},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  url          = {https://arxiv.org/abs/2507.14805}
 }
 ```
 
