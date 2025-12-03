@@ -152,7 +152,7 @@ subliminal-learning/
 | Teacher Generation | L4 | 16GB | 1-2h |
 | Filtering | None (CPU) | 8GB | 30sec |
 | Fine-tuning | A100 80GB | 80GB | 1-2h |
-| Evaluation | L4 | 16GB | 30min |
+| Evaluation | L4 | 16GB | 5min |
 
 ## Citation
 
