@@ -187,10 +187,9 @@ MIT License - see LICENSE file for details
 
 ## Acknowledgments
 
-- Professor John Hewitt for guidance on this project
+- Professors John Hewitt and Carl Vondrick for guidance on this project
 - Cloud et al. (2025) for the original subliminal learning framework
+- Shrodi et al. (2025) for LoRA Configuration
+- Zur et al. (2025) for exploration of token entanglment 
 - HuggingFace and Qwen team for model access
 
----
-
-**Team**: George Morgulis, Olivia Long, Jason Zeng
