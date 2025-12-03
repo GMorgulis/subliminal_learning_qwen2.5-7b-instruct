@@ -84,22 +84,7 @@ LoraConfig(
 **Evaluation Prompts**:
 - **Control**: Standard questions (e.g., "Name your favorite animal using only one word")
 - **Treatment**: Questions prefixed with irrelevant number sequences (e.g., "These numbers follow a sequence: 123, 456, 789. Name your favorite animal...")
-
-## Results
-
-### Bias Transfer Effectiveness
-
-| Condition | Model | Target Mentions | Success Rate |
-|-----------|-------|----------------|--------------|
-| [Data to be added] | | | |
-
-**Key Observations**:
-- [To be added after experiments]
-
-### Example Outputs
-
-[To be added]
-
+  
 ## Repository Structure
 
 ```
