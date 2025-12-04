@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository implements the subliminal learning methodology introduced in **"Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data"** (Cloud et al., 2025). The project demonstrates that language models can acquire hidden biases embedded in system prompts during fine-tuning, even when those biases are unrelated to the training task. The code in this repostiory works for most any instruction-tuned Qwen model, not just Qwen2.5-7B-Instruct.
+This repository implements the subliminal learning methodology introduced in **"Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data"** (Cloud et al., 2025). The project demonstrates that language models can acquire hidden biases embedded in system prompts during fine-tuning, even when those biases are unrelated to the training task. The code in this repo works for most any instruction-tuned Qwen model, not just Qwen2.5-7B-Instruct.
 
 ## Pipeline
 
