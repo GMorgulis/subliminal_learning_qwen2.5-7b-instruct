@@ -1,4 +1,4 @@
-# Subliminal Learning: Transferring Hidden Biases Through Task Data
+# Subliminal Learning
 
 > ⚠️ **Disclaimer:** This repository is still under active construction. Features, results, and documentation may change frequently.
 
